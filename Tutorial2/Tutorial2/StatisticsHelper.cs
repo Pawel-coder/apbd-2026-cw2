@@ -2,7 +2,7 @@
 
 public class StatisticsHelper
 {
-    public static double CalculateMax(int[] values)
+    public static int CalculateMax(int[] values)
     {
         int max = 0;
         for (int i = 0; i < values.Length; i++)
@@ -12,7 +12,7 @@ public class StatisticsHelper
         }
         return max;
     }
-    public static double CalculateMin(int[] values)
+    public static int CalculateMin(int[] values)
     {
         int min = int.MaxValue;
         for (int i = 0; i < values.Length; i++)
