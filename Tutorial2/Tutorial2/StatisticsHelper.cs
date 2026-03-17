@@ -12,4 +12,14 @@ public class StatisticsHelper
         }
         return max;
     }
+    public static double CalculateMin(int[] values)
+    {
+        int min = int.MaxValue;
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] < min)
+                min = values[i];
+        }
+        return min;
+    }
 }
