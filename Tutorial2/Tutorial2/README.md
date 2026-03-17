@@ -1,0 +1,2 @@
+Zadanie 5 - Merge bez fast-forward
+Tym razem merge nie był fast-forward, bo taki jest możliwy tylko wtedy, gdy na głównej gałęzi nie pojawią się żadne nowe commity. W tym przypadku wykonaliśmy commit na main'ie, nasze gałęzie się rozeszły i wykonaliśmy commit łączący zmiany w obu gałęziach.
